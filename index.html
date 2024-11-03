@@ -2,35 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSC102 Home page </title>
-    <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSC102 Home page </title>
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="boards.html">Boards</a></li>
-        </ul>
-    </nav>
-    
-        <section class="main">
-          <h1>welcome to my CSC102 homepage</h1>  
-          <p class"meme-container">
-            <img id="memeImage"
-             src="images/pmeme.jpg"
-             alt="khg,jhf,hgmjhfj,">
-          </p>
-        </section>
-          
-           
-    <footer>
+  <!-- This is my navbar is has a link to my home page (index.html) and my boards page (boards.html) -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="boards.html">Boards</a></li>
+    </ul>
+  </nav>
+
+ <!-- Everything kept mushing together so I used a div container to sperate the page container so I could style it it on the right side oppoisite of the sidebar on the left side. -->
+  <!-- then created a section  for home content and a section for the degree requirements section so i could style them differently. -->
+  
+ <div class="main-container">
+    <section class="home-content">
+      <h1>welcome to my CSC102 homepage</h1>
       <p>
-        This is my footer 
-      </p>  
-    </footer>
+        <img id="memeImage" src="images/pmeme.jpg" alt="multiple adapters connected">
+      </p>
+    
+    </section>
+
+  </div>
+
+  <!-- This is my footer its a link list as well I just havent made pages for the links i'll add them later like i did in the navbar-->
+  <footer>
+    <ul>
+      <li><a href="privacypolicy.html">privacypolicy</a></li>
+      <li><a href="terms&conditions">Terms & Conditions</a></li>
+    </ul>
+  </footer>
+
+
 </body>
 
 </html>
